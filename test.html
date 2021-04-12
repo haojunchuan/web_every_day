@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <div id="test">hello</div>
+    <button onclick="test()">test</button>
+</body>
+<script>
+    var div=document.getElementById('test')
+    div.innerHTML='HELLO WORLD'
+    console.log(div.title)
+    let newDiv='<h2>郝俊川</h2>'
+    div.appendChild(newDiv)
+    function test(){
+        location.replace('http://www.baidu.com')
+    }
+</script>
+</html>
